@@ -50,5 +50,5 @@ portfolioexamples_plot('Asset Risks and Returns', ...
 frontports = ([ersk, eret])
 sharpe = cell(100, 1)
 for i = 1:100
-    sharpe{i, 1} = (frontports(i, 2) - rf) / frontports(i, 1)
+    sharpe{i, 1} = (frontports(i,2)-rf)/frontports(i,1)
 end
